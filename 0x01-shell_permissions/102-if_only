@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -user guillaume -iname 'hello' -type f -exec chown betty {}
+find ./ \( -type f -and -user guillaume \) -and \( -type f -and -iname 'hello' \) -exec chown betty {} +
