@@ -1,0 +1,1 @@
+Shell init filea variables and expansion
